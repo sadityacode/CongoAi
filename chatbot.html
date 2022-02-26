@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+    <link rel="stylesheet" href="./assets/css/style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        @media only screen and (max-width: 350px) {
+        .chat_bot_heading_section h1 {
+            font-size: 20px;
+            padding-bottom: 5px;
+        }
+        .chat_bot_heading_section span {
+            font-size: 15px;
+            padding-bottom: 5px;
+        }
+        .chat_bot_heading_section p, 
+        .chat_bot_heading_section p span {
+            font-size: 12px;
+            padding-bottom: 5px;
+        }
+        .chat_bot_title, 
+        .chatbot_start_btn, 
+        .chat_bot_content_section ul li {
+            font-size: 10px;
+        }
+
+        .chat_bot_content_section {
+            height: 370px;
+        }
+
+        .chatbot_start_btn {
+            padding: 5px 20px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat_bot_section fade_in_animation">
+        <div class="chat_bot_heading_section">
+            <h1 class="fade_in_animation delay_1">iris</h1>
+            <span class="fade_in_animation delay_1">Hello</span>
+            <p class="fade_in_animation delay_1">I am Iris, a Virtual Assistant <span>How may I help you?</span></p>
+            <img class="fade_in_animation delay_1" src="./assets/images/chatbotIcon.png" style="z-index: 1;" alt="chat bot icon"/>
+        </div>
+        <div class="chat_bot_content_section fade_in_animation delay_2">
+            <span class="chat_bot_title fade_in_animation delay_3">Frequently Asked Questions</span>
+            <ul>
+                <li class="fade_in_animation delay_4">Can I redeem my FB before the original term?</li>
+                <li class="fade_in_animation delay_5">How do I pay my Credit card bill?</li>
+                <li class="fade_in_animation delay_6">How can I get my Account Statement?</li>
+                <li class="fade_in_animation delay_7">What is the tenure of Fixed Deposit?</li>
+            </ul>
+            <div>
+                <span class="chatbot_start_btn fade_in_animation delay_8">Start a New Conversation</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
